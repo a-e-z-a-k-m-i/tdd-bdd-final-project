@@ -91,7 +91,7 @@ def create_products():
 
 
 ######################################################################
-# L I S T   A L L   P R O D U C T S
+# L I S T   P R O D U C T S
 ######################################################################
 @app.route("/products", methods=["GET"])
 def list_products():

@@ -109,9 +109,6 @@ class TestProductRoutes(TestCase):
         data = response.get_json()
         self.assertEqual(data['message'], 'OK')
 
-    # ----------------------------------------------------------
-    # TEST CREATE
-    # ----------------------------------------------------------
     def test_create_product(self):
         """It should Create a new Product"""
         test_product = ProductFactory()
